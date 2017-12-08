@@ -1,0 +1,216 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h1,h2,h3{
+    text-transform: uppercase;
+    font-weight: 300;
+    word-spacing: 4px;
+    letter-spacing: 0.01em;
+  }
+
+.container{
+    width:80%;
+    margin: auto;
+    
+    height: 100vh;
+    
+}
+
+
+
+.row{
+    width:100%;
+    margin: auto;
+    height:30vh;
+    
+   
+}
+/*
+.col-3{
+    width:32%;
+    float: left;
+    height: 20vh;
+    margin: 2px;
+    background-color: rgb(93, 60, 243)
+    
+}
+
+.col-9{
+    width:66%;
+    float: left;
+    
+    margin: 2px;
+    background-color: rgb(93, 60, 243)
+}
+*/
+
+.form{
+    width: 100%;
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.lab-user{
+    margin-bottom: 8px;
+}
+.input{
+    width:100%;
+    height:40px;
+    border-radius: 8px;
+    border: solid 2px rgb(4, 140, 161);
+    margin-bottom: 20px;
+    
+   
+
+}
+
+
+.input[type="text"]{
+
+    
+    font-size: 130%;
+    color: rgb(3, 86, 99);
+    padding-left: 25px;
+    font-weight: 300;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    color:#000;
+
+    
+}
+
+.input:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px blue;
+}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@ CARD @@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.card
+{
+display: block;
+float:left;
+
+width:100%;
+background-color: #17A2B8;
+color:#fff;
+
+padding-bottom: 20px;
+border-radius: 10px;
+}
+
+
+
+
+.card-headder{
+    font-size: 150%;
+    font-weight: 100;
+    
+    padding:8px 16px;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, .4); 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+
+}
+.card-headding{
+
+    padding-left: 18px;
+
+
+}
+
+.card-img{
+    padding-top: 20px;
+width:33%;
+float: left;
+margin: 2px;
+padding-left: 20px;
+padding-right: 20px;
+display: block;
+}
+#img-pro{
+    width: 90%;
+    margin: auto;
+    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, .2)
+
+}
+.card-text{
+    padding-top: 30px;
+    width:66%;
+    float: left;
+    margin: 2px;
+}
+
+.btn{
+    font-size: 60%;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-weight: 400;
+} 
+.btn-gi{
+    background-color: #D9534F;
+
+}
+.btn-re{
+    background-color: #337AB7;
+
+}
+.btn:focus{
+    border:none;
+}
+.lab{
+    width: 95%;
+    display: block;
+    border: 1px solid gray;
+    padding: 10px 0px 10px 15px  ;
+
+}
+.lab1{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: none;
+}
+
+
+.lab2{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#github{
+    margin-top:30px;
+    font-size: 70%;
+    padding: 6px 13px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 7px;
+    border: none;
+}
+
+#github:hover{
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, .4);
+}
+
+
+
+@media only screen and (max-width: 500px){
+    
+}
